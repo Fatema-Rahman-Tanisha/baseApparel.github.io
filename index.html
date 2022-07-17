@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <title>Frontend Mentor | Base Apparel coming soon page</title>
+</head>
+<body>
+  
+
+<main class="md:w-full md:h-full md:flex md:flex-row md:overflow-y-hidden hidden">
+
+<div class="textBox h-full w-2/3 flex flex-col justify-evenly px-[9rem] py-4">
+<div class="logo py-6">
+  <img src="./images/logo.svg" alt="">
+</div>
+<div class="text py-4">
+  <h1 class="uppercase font-semibold lg:text-6xl text-4xl leading-snug tracking-widest "><span class="font-light text-[#ce9797]"> we're </span> <br>coming <br>soon</h1>
+  <p class=" text-[#ce9797] leading-7 py-3 tracking-wide w-2/3">Hello , fellow shoppers ! We are currently building our new fasion store . Add your email below to stay up-to-date with announcements and our launche deals</p>
+</div>
+<form class="inline-flex" id="desk">
+  <input placeholder="Email Address" type="text" name="" id="emailDesk" class="px-5 py-3 rounded-full outline-none border-2 border-[#ce9797] xl:w-1/2 lg:w-[70%] lg:translate-x-[0] translate-x-[-40px]">
+  <button type="submit" class="py-3 px-8 text-white rounded-full lg:translate-x-[-50px] translate-x-[-110px]  bg-gradient-to-r from-[#f8bfbf] to-[#ee8c8c]"> > </button>
+</form>
+</div>
+
+
+<div class="Hero h-screen w-[41%]">
+  <img class="w-full h-full" src="./images/desktop.jpg" alt="">
+</div>
+</main>
+
+ <main class="md:hidden flex flex-col w-full h-full justify-evenly items-center">
+  <div class="logo py-6">
+    <img src="./images/logo.svg" alt="">
+  </div>
+  <div class="heroImg w-full h-[50vh] mb-5">
+    <img class="w-full h-full" src="./images/hero-mobile.jpg" alt="">
+  </div>
+  <div class="text w-full h-full flex flex-col justify-evenly items-center">
+    <h1 class="text-center py-9 uppercase font-semibold text-7xl leading-tight tracking-widest "><span class="font-light text-[#ce9797]"> we're </span> <br>coming <br>soon</h1>
+    <p class=" text-center text-[#ce9797] leading-7 py-3 tracking-wide w-2/3">Hello , fellow shoppers ! We are currently building our new fasion store . Add your email below to stay up-to-date with announcements and our launche deals</p>
+  </div>
+  <form class="flex justify-center items-center mb-7 mx-9" id="mobile">
+    <input placeholder="Email Address" type="text" name="" id="emailMobile" class="w-[17rem] pl-2 py-3 rounded-full outline-none border-2 border-[#ce9797] w-full">
+    <button type="submit" class="py-3 px-8 text-white rounded-full lg:translate-x-[-50px] translate-x-[-50px]  bg-gradient-to-r from-[#f8bfbf] to-[#ee8c8c]"> > </button>
+  </form>
+</main>
+
+<script src="./js/script.js"></script>
+</body>
+</html>
